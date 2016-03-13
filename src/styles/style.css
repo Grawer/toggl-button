@@ -499,15 +499,18 @@ only screen and (min-resolution: 192dpi) {
   padding-left: 20px;
   background-size: 18px;
   margin-left: 7px;
-  visibility: hidden;
+  margin-bottom: -5px;
+  opacity: 0.07;
 }
 
 .toggl-button.todoist.active {
   visibility: visible;
+  opacity: 1;
 }
 
 .task_content_item:hover .toggl-button {
   visibility: visible;
+  opacity: 1;
 }
 
 /********* XERO *********/

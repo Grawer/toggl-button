@@ -45,6 +45,7 @@ togglbutton.render('.task_item .content:not(.toggl)', {observe: true}, function 
 
   link = togglbutton.createTimerLink({
     className: 'todoist',
+    buttonType: 'minimal',
     description: descFunc,
     projectName: projectFunc
   });
